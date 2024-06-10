@@ -1,0 +1,50 @@
+.menu {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: $bg-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $second-text-color;
+
+  &__top {
+    margin-bottom: 15px;
+
+    @include on-tablet {
+      padding-block: 32px;
+      margin-bottom: 8px;
+    }
+  }
+
+  &__nav {
+    margin-bottom: 32px;
+  }
+
+  &-content {
+    @include ontent-padding-inline;
+  }
+
+  &__phone-number {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+
+    &:first-of-type {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__cta {
+    margin-top: 16px;
+    color: inherit;
+    padding-bottom: 7px;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+  }
+}
