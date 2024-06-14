@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
   box-sizing: border-box;
-  background-image: url(../images/header-bg-mobile.jpg);
+  background-image: url(../images/header-bg.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -13,7 +13,7 @@
   }
 
   &__bottom {
-    @include ontent-padding-inline;
+    @include content-padding-inline;
   }
 
   &__title {

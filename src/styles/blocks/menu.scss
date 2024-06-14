@@ -6,6 +6,18 @@
   text-transform: uppercase;
   color: $second-text-color;
 
+  &__logo {
+    @include on-tablet {
+      width: 64px;
+      height: 46px;
+    }
+  }
+
+  &__icon--close {
+    width: 24px;
+    height: 24px;
+  }
+
   &__top {
     margin-bottom: 15px;
 
@@ -20,7 +32,7 @@
   }
 
   &-content {
-    @include ontent-padding-inline;
+    @include content-padding-inline;
   }
 
   &__phone-number {
