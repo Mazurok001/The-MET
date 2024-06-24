@@ -1,0 +1,22 @@
+.section-title {
+  // font-family: Cinzel;
+  // padding-top: 100px;
+  margin-bottom: 48px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  text-align: center;
+
+  // color: #161616;
+
+  @include on-tablet {
+    font-size: 48px;
+
+    // padding-top: 140px;
+  }
+
+  &--text-left {
+    text-align: left;
+  }
+}

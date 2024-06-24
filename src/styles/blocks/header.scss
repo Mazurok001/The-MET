@@ -1,19 +1,17 @@
 .header {
-  height: 100vh;
-  box-sizing: border-box;
   background-image: url(../images/header-bg.jpg);
   background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  gap: 104px;
 
-  @include on-tablet {
-    gap: 91px;
-  }
+  &__content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
 
-  &__bottom {
-    @include content-padding-inline;
+    @include on-tablet {
+      gap: 91px;
+    }
   }
 
   &__title {
@@ -27,6 +25,10 @@
 
     @include on-tablet {
       font-size: 64px;
+    }
+
+    @include on-desktop {
+      font-size: 80px;
     }
   }
 }

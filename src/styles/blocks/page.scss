@@ -1,9 +1,19 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .page {
   font-family: Cinzel, serif;
   font-style: normal;
   color: $main-text-color;
   font-size: 16px;
-  line-height: 27px;
+  line-height: calc(27 / 16);
   scroll-behavior: smooth;
 
   &__body {

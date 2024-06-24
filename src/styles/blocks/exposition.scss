@@ -1,0 +1,29 @@
+.exposition {
+  &__picture {
+    display: block;
+    width: 100%;
+  }
+
+  &__title {
+    margin-top: 24px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: calc(33.6 / 24);
+    text-align: center;
+    color: $accent-color;
+
+    @include on-tablet {
+      margin-top: 32px;
+    }
+  }
+
+  &__description {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(27 / 16);
+    text-align: center;
+    color: $main-text-color;
+  }
+}

@@ -1,7 +1,7 @@
 .menu {
   height: 100vh;
   box-sizing: border-box;
-  background-color: $bg-color;
+  background-color: $accent-color;
   font-weight: 700;
   text-transform: uppercase;
   color: $second-text-color;
@@ -29,10 +29,6 @@
 
   &__nav {
     margin-bottom: 32px;
-  }
-
-  &-content {
-    @include content-padding-inline;
   }
 
   &__phone-number {

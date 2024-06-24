@@ -21,6 +21,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="./styles/style.scss"
     />
@@ -30,37 +34,42 @@
     ></script>
   </head>
   <body class="page__body">
-    <header class="header">
-      <div class="top-bar">
-        <a
-          href="#"
-          class="top-bar__logo-link"
-        >
-          <img
-            src="./images/logo-x2.png"
-            alt="MET logo"
-            class="top-bar__logo"
-          />
-        </a>
-
-        <div class="top-bar__icons">
-          <a
-            href="#"
-            class="icon icon--phone"
-          ></a>
-          <a
-            href="#menu"
-            class="icon icon--menu"
-          ></a>
+    <header
+      class="header"
+      id="home"
+    >
+      <div class="container">
+        <div class="header__content">
+          <div class="top-bar">
+            <a
+              href="#"
+              class="top-bar__logo-link"
+            >
+              <img
+                src="./images/logo-x2.png"
+                alt="MET logo"
+                class="top-bar__logo"
+              />
+            </a>
+            <div class="top-bar__icons">
+              <a
+                href="#"
+                class="icon icon--phone"
+              ></a>
+              <a
+                href="#menu"
+                class="icon icon--menu"
+              ></a>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <h1 class="header__title">
+              Welcome
+              <br />
+              to The MET
+            </h1>
+          </div>
         </div>
-      </div>
-
-      <div class="header__bottom">
-        <h1 class="header__title">
-          Welcome
-          <br />
-          to The MET
-        </h1>
       </div>
     </header>
 
@@ -68,130 +77,172 @@
       class="menu page__menu"
       id="menu"
     >
-      <div class="top-bar menu__top">
-        <a
-          href="#"
-          class="top-bar__logo-link menu__logo-link"
-        >
-          <img
-            src="./images/logo.png"
-            alt="MET logo"
-            class="top-bar__logo menu__logo"
-          />
-        </a>
-
-        <a
-          href="#"
-          class="icon icon--close menu__icon--close"
-        ></a>
-      </div>
-
-      <div class="menu-content">
-        <nav class="nav menu__nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a
-                href="#home"
-                class="nav__link"
-              >
-                Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a
-                href="#about-us"
-                class="nav__link"
-              >
-                About Us
-              </a>
-            </li>
-            <li class="nav__item">
-              <a
-                href="#now-on-view"
-                class="nav__link"
-              >
-                Now on view
-              </a>
-            </li>
-            <li class="nav__item">
-              <a
-                href="#explore-online"
-                class="nav__link"
-              >
-                Explore Online
-              </a>
-            </li>
-            <li class="nav__item">
-              <a
-                href="#contacts"
-                class="nav__link"
-              >
-                Contacts
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <a
-          href="tel:+1 212-535-7710"
-          class="menu__phone-number"
-        >
-          The Met Fifth Avenue
-          <br />
-          +1 212-535-7710
-        </a>
-        <a
-          href="tel:+1 212-923-3700"
-          class="menu__phone-number"
-        >
-          The Met Cloisters
-          <br />
-          +1 212-923-3700
-        </a>
-        <a
-          href="#"
-          class="menu__cta"
-        >
-          call to order
-        </a>
+      <div class="container">
+        <div class="top-bar menu__top">
+          <a
+            href="#"
+            class="top-bar__logo-link menu__logo-link"
+          >
+            <img
+              src="./images/logo.png"
+              alt="MET logo"
+              class="top-bar__logo menu__logo"
+            />
+          </a>
+          <a
+            href="#"
+            class="icon icon--close menu__icon--close"
+          ></a>
+        </div>
+        <div class="menu-bottom">
+          <nav class="nav menu__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a
+                  href="#home"
+                  class="nav__link"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#about-us"
+                  class="nav__link"
+                >
+                  About Us
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#now-on-view"
+                  class="nav__link"
+                >
+                  Now on view
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#explore-online"
+                  class="nav__link"
+                >
+                  Explore Online
+                </a>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#contacts"
+                  class="nav__link"
+                >
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="tel:+1 212-535-7710"
+            class="menu__phone-number"
+          >
+            The Met Fifth Avenue
+            <br />
+            +1 212-535-7710
+          </a>
+          <a
+            href="tel:+1 212-923-3700"
+            class="menu__phone-number"
+          >
+            The Met Cloisters
+            <br />
+            +1 212-923-3700
+          </a>
+          <a
+            href="#"
+            class="menu__cta"
+          >
+            call to order
+          </a>
+        </div>
       </div>
     </aside>
 
     <main class="main">
-      <section
-        class="home"
-        id="home"
-      >
-        <h2>Home</h2>
-      </section>
-
-      <section
-        class="about-us"
-        id="about-us"
-      >
-        <h2>About Us</h2>
-      </section>
-
-      <section
-        class="now-on-view"
-        id="now-on-view"
-      >
-        <h2>Now on view</h2>
-      </section>
-
-      <section
-        class="explore-online"
-        id="explore-online"
-      >
-        <h2>Explore Online</h2>
-      </section>
-
-      <section
-        class="contacts"
-        id="contacts"
-      >
-        <h2>Contacts</h2>
-      </section>
+      <div class="container">
+        <div class="main__content">
+          <section
+            class="about-us"
+            id="about-us"
+          >
+            <h2 class="section-title section-title--text-left">
+              <span>Plan your visit</span>
+              <br />
+              Museum hours
+            </h2>
+          </section>
+          <section
+            class="now-on-view"
+            id="now-on-view"
+          >
+            <h2 class="section-title">
+              Now On View
+              <br />
+              <span>
+                Explore exhibition gallery guides, videos, articles, and more.
+              </span>
+            </h2>
+          </section>
+          <section
+            class="explore-online"
+            id="explore-online"
+          >
+            <h2 class="section-title">More to Explore Online</h2>
+            <div class="explore-online__expositions">
+              <article class="exposition">
+                <img
+                  src="./images/layer51@2x.jpg"
+                  alt="exposition foto"
+                  class="exposition__picture"
+                />
+                <h3 class="exposition__title">Collection Areas</h3>
+                <p class="exposition__description">
+                  These collection areas study, exhibit, and care for the
+                  objects in The Met collection.
+                </p>
+              </article>
+              <article class="exposition">
+                <img
+                  src="./images/layer51-1@2x.jpg"
+                  alt="exposition foto"
+                  class="exposition__picture"
+                />
+                <h3 class="exposition__title">Travel</h3>
+                <p class="exposition__description">
+                  Travel with The Met connects the Museum's wide and diverse
+                  audience to art, inspiration, and historical perspective.
+                </p>
+              </article>
+              <article class="exposition">
+                <img
+                  src="./images/layer51-2@2x.jpg"
+                  alt="exposition foto"
+                  class="exposition__picture"
+                />
+                <h3 class="exposition__title">Virtual group tours</h3>
+                <p class="exposition__description">
+                  Request a guided tour, reserve admission and lead your own
+                  small group, or request a live virtual tour led by a Museum
+                  guide.
+                </p>
+              </article>
+            </div>
+          </section>
+          <section
+            class="contacts"
+            id="contacts"
+          >
+            <h2 class="section-title">Contacts</h2>
+          </section>
+        </div>
+      </div>
     </main>
 
     <footer class="footer"></footer>
