@@ -25,15 +25,15 @@ This is a landing page for **The Metropolitan Museum of Art (The Met)**. The web
 
 To run this project locally, follow these steps:
 
-1.Clone the repository to your local machine:
+-1.Clone the repository to your local machine:
   `git clone https://github.com/your-username/the-met-landing.git`
-2.Navigate into the project directory:
+-2.Navigate into the project directory:
   `cd the-met-landing`
-3.Install dependencies:
+-3.Install dependencies:
   `npm install`
-4.Compile SCSS to CSS:
+-4.Compile SCSS to CSS:
   `npm run build-css`
-5.Open index.html in your browser to view the website.
+-5.Open index.html in your browser to view the website.
 
 ## Key Files:
 -index.html: The main HTML file for the website.
