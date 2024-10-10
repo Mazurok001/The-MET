@@ -1,12 +1,3 @@
-- **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar;
-- When done check yourself using the [CHECKLIST](./checklist.md) when finished;
-- Deploy and create a Pull Request with a [DEMO LINK](https://<your_account>.github.io/layout_landing-page/)
-
-# Tips & Hints
-- Check `background-image: url()` to be relative to the `main.scss`. So should start with `../images`.
-- If some points from the checklist are not relevant to your design, just skip it.
-
-
 # The Metropolitan Museum of Art (The Met) Landing Page
 
 This is a landing page for **The Metropolitan Museum of Art (The Met)**. The website provides visitors with essential information about the museum, its current exhibitions, online galleries, and contact details.
@@ -60,7 +51,7 @@ Explore Online: Online resources and virtual tours available for users.
 Contacts: Contact details for different museum locations.
 
 ## License
-See the LICENSE-  -for more details.
+See the [LICENSE](https://github.com/Mazurok001/The-MET/tree/develop?tab=License-1-ov-file) -for more details.
 
 ## Contributing
 Pull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.
